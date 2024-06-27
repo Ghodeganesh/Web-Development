@@ -1,4 +1,4 @@
-// let accountId=12346;
+let accountId=12346;
 // // console.log(accountId);
 
 // //cant reassign value of Const
@@ -39,5 +39,3 @@
 // // │    3    │      40       │
 // // │    4    │      350      │
 // // └─────────┴───────────────┘
-
-// console.log(console.log("hellooo22"))
