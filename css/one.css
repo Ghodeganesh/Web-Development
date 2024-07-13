@@ -1,0 +1,63 @@
+p {
+    color: white;
+    font-weight: 500;
+}
+
+.one {
+    background-color: orange;
+}
+
+.two {
+    background-color: rgb(216, 205, 255);
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: green;
+}
+
+.four:hover {
+    background-color: rgb(0, 107, 128);
+    color: black;
+    font-weight: 600;
+}
+
+[ganesh]:hover {
+    background-color: hotpink;
+    font-weight: 600;
+}
+
+[ghode]:hover {
+    background-color: rgb(255, 0, 17);
+    font-weight: 900;
+    color: aqua;
+}
+
+[html] {
+    font-weight: 500;
+    color: blue;
+    font-size: 34;
+}
+
+[css] {
+    font-weight: 500;
+    color: rgb(60, 255, 0);
+   font-family: fantasy;
+
+}
+
+[js] {
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: rgb(255, 0, 204);
+}
+
+[tail] {
+    font-weight: 500;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 81, 0);
+}
