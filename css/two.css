@@ -1,0 +1,21 @@
+.one{
+    background-color: green;
+}
+#two{
+    background-color: rgb(255, 0, 0);
+}
+.three{
+    background-color: rgb(73, 169, 169);
+}
+
+.two{
+    background-color: blueviolet;
+    font-weight: 800;
+    padding: 10px;
+}
+#three{
+    font-weight: 800;
+    color: rgb(208, 38, 38);
+    background-color: cadetblue;
+    padding: 30px;
+}
