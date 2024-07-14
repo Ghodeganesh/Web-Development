@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    color: ;
+}
+.head{
+    text-align: center;
+}
+.para{
+    color: rgb(171, 34, 64);
+    font-weight: 400;
+}
+.para:hover{
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+}
+ul li a{
+    text-decoration: none;
+}
+#computersec{
+    text-align: center;
+}
+#mobilesec:hover{
+    background-color:  rgb(241, 241, 237);
+    /* display: flex;
+    flex-direction: row; */
+}
+#computersec:hover{
+    background-color: rgb(241, 241, 237);
+    /* display: flex;
+    flex-direction: row; */
+}
+#cofeesec:hover{
+    background-color: rgb(241, 241, 237);
+    /* display: flex;
+    flex-direction: row; */
+}
+.img1{
+    min-width:411px;
+    max-width: 440px;
+}
+.hh{
+    font-size: 28px;
+}
+.foot{
+    text-align: center;
+    font-weight: 600;
+}
+#footer{
+    text-align: center;
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 10px;
+}
