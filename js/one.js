@@ -65,6 +65,50 @@
 // outer()
 
 
-const mul=(num)=>num*num
-const add=(num)=>num+num
-const random=()=>Math.random()
+// const mul=(num)=>num*num
+// const add=(num)=>num+num
+// const random=()=>Math.random()
+
+let arr=['banana','karela','aalu','mango','pinapple']
+
+// arr.forEach(function(i){
+//     console.log(i)
+// })
+
+// arr.forEach((i)=>{
+//     console.log(i)
+// })
+
+// arr.forEach(()=>console.log("hello"))
+
+// const months=['jan','feb','march','dec','nov','aug']
+
+// // const data=months.map((month)=>{
+// //     console.log(month)
+// //     // return month.toUpperCase()
+// // })
+
+// const val=months.map((data)=>{
+//     //   console.log(data)
+//     return data.toUpperCase()
+// })
+
+const dayFull = [ "Sunday", "Monday", "Tuesday", "Wednesday","thursday","friday","saturday"]
+
+// const mapping=dayFull.map((data,index)=>{
+//   console.log(data.length)
+//   return data.index>=3
+// })
+
+console.log("*************")
+// const fill=dayFull.filter((arr,data)=>{
+//     console.log(arr,data+1)
+//     return data.length>=8
+// })
+
+const val=dayFull.filter((data,index)=>
+{
+    console.log(index,data)
+    // return index>=5
+    return data.toUpperCase().includes('F')
+})
