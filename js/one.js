@@ -106,9 +106,22 @@ console.log("*************")
 //     return data.length>=8
 // })
 
-const val=dayFull.filter((data,index)=>
-{
-    console.log(index,data)
-    // return index>=5
-    return data.toUpperCase().includes('F')
-})
+// const val=dayFull.filter((data,index)=>
+// {
+//     console.log(index,data)
+//     // return index>=5
+//     return data.toUpperCase().includes('F')
+// })
+
+
+const data=[2,4,3,]
+
+// data.reduce((data)=>{console.log(data)},0)
+const hi=data.reduce((acc,current)=>{
+    console.log("th acc: ",acc)
+    console.log("th current: ",current)
+    const total=acc+current
+    console.log("the total: ",total)
+    return total
+},0)
+console.log("th hi:",hi)
