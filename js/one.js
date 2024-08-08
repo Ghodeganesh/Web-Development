@@ -114,14 +114,35 @@ console.log("*************")
 // })
 
 
-const data=[2,4,3,]
+const data=[2,4,3,]   
 
 // data.reduce((data)=>{console.log(data)},0)
-const hi=data.reduce((acc,current)=>{
-    console.log("th acc: ",acc)
-    console.log("th current: ",current)
-    const total=acc+current
-    console.log("the total: ",total)
-    return total
-},0)
-console.log("th hi:",hi)
+// const hi=data.reduce((acc,current)=>{
+//     console.log("th acc: ",acc)
+//     console.log("th current: ",current)
+//     const total=acc+current
+//     console.log("the total: ",total)
+//     return total
+// },0)
+// console.log("th hi:",hi)
+
+
+const colours=['red','green','blue','yellow','black']
+
+const [first,second,third,four]=colours;
+// console.log(first)
+// console.log(second)
+// console.log(third)
+// console.log(four)
+
+const user={
+    name:'ganesh',
+    age:22,
+    degree:"comp"
+}
+console.log(user)
+const {name,degree,hi}=user
+console.log(name)
+console.log(degree)
+// console.log(hi)
+
