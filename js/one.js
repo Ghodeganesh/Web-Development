@@ -69,7 +69,7 @@
 // const add=(num)=>num+num
 // const random=()=>Math.random()
 
-let arr=['banana','karela','aalu','mango','pinapple']
+let arr = ['banana', 'karela', 'aalu', 'mango', 'pinapple']
 
 // arr.forEach(function(i){
 //     console.log(i)
@@ -93,7 +93,7 @@ let arr=['banana','karela','aalu','mango','pinapple']
 //     return data.toUpperCase()
 // })
 
-const dayFull = [ "Sunday", "Monday", "Tuesday", "Wednesday","thursday","friday","saturday"]
+const dayFull = ["Sunday", "Monday", "Tuesday", "Wednesday", "thursday", "friday", "saturday"]
 
 // const mapping=dayFull.map((data,index)=>{
 //   console.log(data.length)
@@ -114,7 +114,7 @@ console.log("*************")
 // })
 
 
-const data=[2,4,3,]   
+const data = [2, 4, 3,]
 
 // data.reduce((data)=>{console.log(data)},0)
 // const hi=data.reduce((acc,current)=>{
@@ -127,22 +127,57 @@ const data=[2,4,3,]
 // console.log("th hi:",hi)
 
 
-const colours=['red','green','blue','yellow','black']
+// const colours=['red','green','blue','yellow','black']
 
-const [first,second,third,four]=colours;
-// console.log(first)
-// console.log(second)
-// console.log(third)
-// console.log(four)
+// const [first,second,third,four]=colours;
+// // console.log(first)
+// // console.log(second)
+// // console.log(third)
+// // console.log(four)
 
-const user={
-    name:'ganesh',
-    age:22,
-    degree:"comp"
-}
-console.log(user)
-const {name,degree,hi}=user
-console.log(name)
-console.log(degree)
-// console.log(hi)
+// const user={
+//     name:'ganesh',
+//     age:22,
+//     degree:"comp"
+// }
+// console.log(user)
+// const {name,degree,hi}=user
+// console.log(name)
+// console.log(degree)
+// // console.log(hi)
 
+
+const container = document.querySelector('.container')
+const card = document.querySelector('.cardmain')
+
+let count=0;
+card.addEventListener('click', (e) => {
+    // console.log(e)
+
+    const newCard = document.createElement('div')
+    // newCard.classList.add=card
+    newCard.classList.add('card')
+    newCard.innerText=count++
+    container.append(newCard)
+
+})
+
+container.addEventListener('click',(e)=>{
+    // console.log(e.target)
+    if(e.target != container){
+        e.target.remove()
+    }
+})
+
+// card.remove(e)
+
+// card.addEventListener('mousedown', (e) => {
+//     // console.log(e)
+
+//     const newCard = document.createElement('div')
+//     // newCard.classList.add=card
+//     newCard.classList.add('card')
+//     newCard.innerText=count++
+//     container.append(newCard)
+
+// })

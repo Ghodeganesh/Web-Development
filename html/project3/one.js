@@ -8,3 +8,16 @@ const nature = "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-g
 images.forEach((image)=>{
     image.src=nature
 })
+
+// window.addEventListener('keypress',(e)=>{
+//     console.log("key: ",e.key)
+//     console.log("code: ",e.code)
+// })
+// window.addEventListener('keyup',(e)=>{
+//     console.log("key: ",e.key)
+//     console.log("code: ",e.code)
+// })
+window.addEventListener('keydown',(e)=>{
+    console.log("key: ",e.key)
+    console.log("code: ",e.code)
+})
