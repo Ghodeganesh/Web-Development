@@ -1,0 +1,41 @@
+body{
+    /* background:rgba(72, 163, 0, 0.07); */
+    background: rgba(72, 163, 0, 0.07);
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    padding: 0px 16px;
+}
+.heading{
+    color:rgba(72, 163, 0, 1) ;
+    size: 64px;
+    text-align: center;
+}
+.heading span{
+    color: rgba(97, 72, 28, 1);
+}
+.app_container{
+    background-color: rgba(251, 251, 251, 1);
+    margin: 0 auto;
+    width: 660px;
+    border-radius: 15px;
+    padding: 32px 48px;
+    box-shadow:0px 0px 5px 5px rgb(0,0,0,0.5) ;
+   
+}
+.sun_img{
+    vertical-align: middle;
+}
+
+@media (max-width:800px){
+    .heading{
+        font-size: 24px;
+        }
+    .app_container{
+        padding: 16px 32px;
+    }
+   
+
+}
